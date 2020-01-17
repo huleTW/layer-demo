@@ -1,25 +1,7 @@
-# Getting Started
+# 洋葱架构
 
-### Reference Documentation
-For further reference, please consider the following sections:
+洋葱架构由Jeffrey Palermo在2008年提出的。
 
-* [Official Gradle documentation](https://docs.gradle.org)
-* [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/gradle-plugin/reference/html/)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/#boot-features-developing-web-applications)
-* [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/#boot-features-jpa-and-spring-data)
-* [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/#using-boot-devtools)
-* [Liquibase Migration](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/#howto-execute-liquibase-database-migrations-on-startup)
+洋葱架构旨在将面向数据库编程的方式，改成面向业务编程的方式。将关注核心从原来的数据库，转移到领域模型。
 
-### Guides
-The following guides illustrate how to use some features concretely:
-
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
-
-### Additional Links
-These additional references should also help you:
-
-* [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
-
+洋葱架构的依赖关系是外层可以依赖内层。
